@@ -5,13 +5,7 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 const PopularCourse = () => {
-  // const Item = styled(Paper)(({ theme }) => ({
-  //   ...theme.typography.body2,
-  //   padding:'10px',
-  //   margin:'10px',
-  //   border: '1px solid gray',
-  //   boxShadow:'0px'
-  // }));
+  
   return (
   <div className="popular-courses">
   
@@ -23,11 +17,16 @@ const PopularCourse = () => {
          justifyContent="space-between"
          alignItems="center">
         <div className="p-info">
-        <p>View all Category <i class="fas fa-arrow-right"></i></p>
+        <Link href="#" underline="none">
+          <p>View all Category <i class="fas fa-arrow-right"></i></p></Link>
         </div>
          <div className="popularCourse-title">
            <h1>Explore <br />
-             Our Popular Courses</h1>
+             Our 
+             <span>
+             Popular
+             <img src="https://www.devsnews.com/wp/educal/wp-content/themes/educal/assets/img/shape/yellow-bg.png" alt="" srcset="" />
+             </span> Courses</h1>
          </div>
           
   </Grid>
