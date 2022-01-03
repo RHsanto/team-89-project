@@ -9,18 +9,13 @@ const PopularCourse = () => {
   return (
   <div className="popular-courses">
   
-    <Container  >
+    <Container>
     <Box sx={{ flexGrow: 1}}>
     <Grid
          container
-         direction="row-reverse"
          justifyContent="space-between"
          alignItems="center">
-        <div className="p-info">
-        <Link href="#" underline="none">
-          <p>View all Category <i class="fas fa-arrow-right"></i></p></Link>
-        </div>
-         <div className="popularCourse-title">
+             <div className="popularCourse-title">
            <h1>Explore <br />
              Our 
              <span>
@@ -28,6 +23,11 @@ const PopularCourse = () => {
              <img src="https://www.devsnews.com/wp/educal/wp-content/themes/educal/assets/img/shape/yellow-bg.png" alt="" srcset="" />
              </span> Courses</h1>
          </div>
+        <div className="p-info">
+        <Link href="#" underline="none">
+          <p>View all Category <i class="fas fa-arrow-right"></i></p></Link>
+        </div>
+       
           
   </Grid>
       <Grid container spacing={1} >
