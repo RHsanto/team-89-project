@@ -61,7 +61,11 @@ const Footer = () => {
         </Grid>
       </Grid>
     </Box>
+   
   </Container>
+  <div className="copyright">
+      <p>Copyright © 2022 Team-89  All Rights Reserved</p>
+    </div>
   </footer>
   </div>);
 };
